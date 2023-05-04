@@ -43,6 +43,7 @@ namespace HMV.AgendamentoBackEnd
             services.AddHttpClient("HttpClient");
             services.AddAutoMapper();
             services.AddSwaggerServices();
+            services.RegisterDataBase(Configuration);
             services.RegisterServices();
         }
 
@@ -73,7 +74,7 @@ namespace HMV.AgendamentoBackEnd
             app.AddSwaggerConfiguration(env);
 
             // Apply Migrations
-            dataContext.Database.Migrate();
+            //dataContext.Database.Migrate();
         }
     }
 }

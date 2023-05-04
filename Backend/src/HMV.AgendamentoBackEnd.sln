@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31205.134
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMV.AgendamentoBackEnd.Application", "HMV.AgendamentoBackEnd\HMV.AgendamentoBackEnd.Application.csproj", "{6A6286EE-1546-4566-A385-89E529B74524}"
 EndProject
@@ -23,11 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMV.AgendamentoBackEnd.Serv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMV.AgendamentoBackEnd.Infra.Ioc", "HMV.AgendamentoBackEnd.Ioc\HMV.AgendamentoBackEnd.Infra.Ioc.csproj", "{83407676-34F1-446A-8AAC-0BBF0F65238F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMV.AgendamentoBackEnd.Infra.Data", "HMV.AgendamentoBackEnd.Infra.Data\HMV.AgendamentoBackEnd.Infra.Data.csproj", "{D91F95B8-B94F-4D5C-8003-DD826C82ABE3}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.3 - Extensions", "4.3 - Extensions", "{8A78112A-3388-46A9-8FAE-DB2FBBAEB696}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMV.AgendamentoBackEnd.Infra.Extensions", "HMV.AgendamentoBackEnd.Infra.Extensions\HMV.AgendamentoBackEnd.Infra.Extensions.csproj", "{A2487E70-8C86-4F68-A8F6-9E9295BE4767}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMV.AgendamentoBackEnd.Infra.Extensions", "HMV.AgendamentoBackEnd.Infra.Extensions\HMV.AgendamentoBackEnd.Infra.Extensions.csproj", "{A2487E70-8C86-4F68-A8F6-9E9295BE4767}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMV.AgendamentoBackEnd.Infra.Data", "HMV.AgendamentoBackEnd.Infra.Data\HMV.AgendamentoBackEnd.Infra.Data.csproj", "{E0D0DA21-0538-43D1-A2A0-62D2034E6AC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,14 +51,14 @@ Global
 		{83407676-34F1-446A-8AAC-0BBF0F65238F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83407676-34F1-446A-8AAC-0BBF0F65238F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83407676-34F1-446A-8AAC-0BBF0F65238F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D91F95B8-B94F-4D5C-8003-DD826C82ABE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D91F95B8-B94F-4D5C-8003-DD826C82ABE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D91F95B8-B94F-4D5C-8003-DD826C82ABE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D91F95B8-B94F-4D5C-8003-DD826C82ABE3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A2487E70-8C86-4F68-A8F6-9E9295BE4767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A2487E70-8C86-4F68-A8F6-9E9295BE4767}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2487E70-8C86-4F68-A8F6-9E9295BE4767}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2487E70-8C86-4F68-A8F6-9E9295BE4767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0D0DA21-0538-43D1-A2A0-62D2034E6AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0D0DA21-0538-43D1-A2A0-62D2034E6AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0D0DA21-0538-43D1-A2A0-62D2034E6AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0D0DA21-0538-43D1-A2A0-62D2034E6AC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,9 +70,9 @@ Global
 		{55B4232A-54D1-48E6-9799-9F6523F107C5} = {5B03AB9C-CC06-412F-84DF-C74884298983}
 		{68F8FE39-1220-4D0D-A98B-0CB7E7E15313} = {FD3D7980-10BB-4F60-B27B-9C41A9542313}
 		{83407676-34F1-446A-8AAC-0BBF0F65238F} = {5A33654F-746D-4BE1-A2F0-BA97CE96D34D}
-		{D91F95B8-B94F-4D5C-8003-DD826C82ABE3} = {947FE73B-FB43-4DDD-B324-A8F9E7E3C5D8}
 		{8A78112A-3388-46A9-8FAE-DB2FBBAEB696} = {8C024228-614F-4293-8FD6-2818C25BFA43}
 		{A2487E70-8C86-4F68-A8F6-9E9295BE4767} = {8A78112A-3388-46A9-8FAE-DB2FBBAEB696}
+		{E0D0DA21-0538-43D1-A2A0-62D2034E6AC2} = {947FE73B-FB43-4DDD-B324-A8F9E7E3C5D8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B74172A0-1CF9-43BD-8FD6-4CF59BED01EE}

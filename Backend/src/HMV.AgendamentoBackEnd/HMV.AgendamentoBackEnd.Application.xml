@@ -24,6 +24,31 @@
             Faz o download do exame do usuário
             </summary>
         </member>
+        <member name="T:HMV.AgendamentoBackEnd.Application.Controllers.LovController">
+            <summary>
+            Lista de Valores Controller
+            </summary>
+        </member>
+        <member name="M:HMV.AgendamentoBackEnd.Application.Controllers.LovController.#ctor(HMV.AgendamentoBackEnd.Service.Interfaces.ILovService)">
+            <summary>
+            Construtor
+            </summary>
+        </member>
+        <member name="M:HMV.AgendamentoBackEnd.Application.Controllers.LovController.GetItens">
+            <summary>
+            Busca a lista de itens
+            </summary>
+        </member>
+        <member name="M:HMV.AgendamentoBackEnd.Application.Controllers.LovController.GetConvenios(System.Int32)">
+            <summary>
+            Busca a lista de convênios
+            </summary>
+        </member>
+        <member name="M:HMV.AgendamentoBackEnd.Application.Controllers.LovController.GetPrestadores(System.Int32,System.Int32)">
+            <summary>
+            Busca a lista de prestadores
+            </summary>
+        </member>
         <member name="T:HMV.AgendamentoBackEnd.Application.Controllers.PacienteController">
             <summary>
             Pacientes Controller

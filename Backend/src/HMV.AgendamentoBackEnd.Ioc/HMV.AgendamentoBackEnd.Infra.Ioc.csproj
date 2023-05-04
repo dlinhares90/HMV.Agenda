@@ -14,8 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HMV.AgendamentoBackEnd.Service\HMV.AgendamentoBackEnd.Service.csproj" />
     <ProjectReference Include="..\HMV.AgendamentoBackEnd.Infra.Data\HMV.AgendamentoBackEnd.Infra.Data.csproj" />
+    <ProjectReference Include="..\HMV.AgendamentoBackEnd.Service\HMV.AgendamentoBackEnd.Service.csproj" />
   </ItemGroup>
 
 </Project>
