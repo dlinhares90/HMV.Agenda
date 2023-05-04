@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HMV.AgendamentoBackEnd.Application</name>
+    </assembly>
+    <members>
+        <member name="T:HMV.AgendamentoBackEnd.Application.Controllers.ExameController">
+            <summary>
+            Events Controller
+            </summary>
+        </member>
+        <member name="M:HMV.AgendamentoBackEnd.Application.Controllers.ExameController.#ctor(HMV.AgendamentoBackEnd.Service.Interfaces.IExameService)">
+            <summary>
+            Construtor
+            </summary>
+        </member>
+        <member name="M:HMV.AgendamentoBackEnd.Application.Controllers.ExameController.Get(System.String)">
+            <summary>
+            Busca os exames do usuário
+            </summary>
+        </member>
+        <member name="M:HMV.AgendamentoBackEnd.Application.Controllers.ExameController.GetExame(System.Int32)">
+            <summary>
+            Faz o download do exame do usuário
+            </summary>
+        </member>
+        <member name="T:HMV.AgendamentoBackEnd.Application.Controllers.PacienteController">
+            <summary>
+            Pacientes Controller
+            </summary>
+        </member>
+        <member name="M:HMV.AgendamentoBackEnd.Application.Controllers.PacienteController.#ctor(HMV.AgendamentoBackEnd.Service.Interfaces.IPacienteService)">
+            <summary>
+            Construtor
+            </summary>
+        </member>
+        <member name="M:HMV.AgendamentoBackEnd.Application.Controllers.PacienteController.Get(System.String)">
+            <summary>
+            Busca o paciente por cpf
+            </summary>
+        </member>
+        <member name="T:HMV.AgendamentoBackEnd.Program">
+            <summary>
+            Program Class
+            </summary>
+        </member>
+        <member name="M:HMV.AgendamentoBackEnd.Program.Main(System.String[])">
+            <summary>
+            Application Main()
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:HMV.AgendamentoBackEnd.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            Application Host Creation
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HMV.AgendamentoBackEnd.Startup">
+            <summary>
+            Startup class
+            </summary>
+        </member>
+        <member name="P:HMV.AgendamentoBackEnd.Startup.Configuration">
+            <summary>
+            The configuration used during startup
+            </summary>
+        </member>
+        <member name="M:HMV.AgendamentoBackEnd.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Construtor
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:HMV.AgendamentoBackEnd.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container. 
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:HMV.AgendamentoBackEnd.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,HMV.AgendamentoBackEnd.Infra.Data.DataContext)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+        </member>
+    </members>
+</doc>

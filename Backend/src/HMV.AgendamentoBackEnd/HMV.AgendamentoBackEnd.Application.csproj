@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>.\NeurocorBackEnd.Application.xml</DocumentationFile>
+    <DocumentationFile>.\HMV.AgendamentoBackEnd.Application.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,13 +17,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NeurocorBackEnd.Service\NeurocorBackEnd.Service.csproj" />
-    <ProjectReference Include="..\NeurocorBackEnd.Infra.Data\NeurocorBackEnd.Infra.Data.csproj" />
-    <ProjectReference Include="..\NeurocorBackEnd.Ioc\NeurocorBackEnd.Infra.Ioc.csproj" />
+    <ProjectReference Include="..\HMV.AgendamentoBackEnd.Service\HMV.AgendamentoBackEnd.Service.csproj" />
+    <ProjectReference Include="..\HMV.AgendamentoBackEnd.Infra.Data\HMV.AgendamentoBackEnd.Infra.Data.csproj" />
+    <ProjectReference Include="..\HMV.AgendamentoBackEnd.Ioc\HMV.AgendamentoBackEnd.Infra.Ioc.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="NeurocorBackEnd.Application.xml">
+    <None Update="HMV.AgendamentoBackEnd.Application.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

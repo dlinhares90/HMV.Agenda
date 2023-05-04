@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace NeurocorBackEnd
+namespace HMV.AgendamentoBackEnd
 {
     /// <summary>
     /// Program Class

@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace NeurocorBackEnd.Service.ViewModels
+namespace HMV.AgendamentoBackEnd.Service.ViewModels
 {
     public class ExameViewModel
     {

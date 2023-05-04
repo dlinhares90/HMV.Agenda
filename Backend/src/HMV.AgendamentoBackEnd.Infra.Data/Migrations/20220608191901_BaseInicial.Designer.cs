@@ -3,10 +3,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using NeurocorBackEnd.Infra.Data;
+using HMV.AgendamentoBackEnd.Infra.Data;
 using Oracle.EntityFrameworkCore.Metadata;
 
-namespace NeurocorBackEnd.Infra.Data.Migrations
+namespace HMV.AgendamentoBackEnd.Infra.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
     [Migration("20220608191901_BaseInicial")]
@@ -20,7 +20,7 @@ namespace NeurocorBackEnd.Infra.Data.Migrations
                 .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("Oracle:ValueGenerationStrategy", OracleValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("NeurocorBackEnd.Domain.Entities.Usuario", b =>
+            modelBuilder.Entity("HMV.AgendamentoBackEnd.Domain.Entities.Usuario", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

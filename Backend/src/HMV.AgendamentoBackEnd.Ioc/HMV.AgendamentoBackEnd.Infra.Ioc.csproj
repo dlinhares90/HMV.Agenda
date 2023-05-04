@@ -14,8 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NeurocorBackEnd.Service\NeurocorBackEnd.Service.csproj" />
-    <ProjectReference Include="..\NeurocorBackEnd.Infra.Data\NeurocorBackEnd.Infra.Data.csproj" />
+    <ProjectReference Include="..\HMV.AgendamentoBackEnd.Service\HMV.AgendamentoBackEnd.Service.csproj" />
+    <ProjectReference Include="..\HMV.AgendamentoBackEnd.Infra.Data\HMV.AgendamentoBackEnd.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>

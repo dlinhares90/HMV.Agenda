@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
+using HMV.AgendamentoBackEnd.Infra.Data;
+using HMV.AgendamentoBackEnd.Service.Interfaces;
+using HMV.AgendamentoBackEnd.Service.ViewModels;
 using Microsoft.EntityFrameworkCore;
-using NeurocorBackEnd.Infra.Data;
-using NeurocorBackEnd.Service.Interfaces;
-using NeurocorBackEnd.Service.ViewModels;
 using System.Data;
 using System.Data.Common;
 
-namespace NeurocorBackEnd.Service.Services
+namespace HMV.AgendamentoBackEnd.Service.Services
 {
     public class PacienteService : IPacienteService
     {

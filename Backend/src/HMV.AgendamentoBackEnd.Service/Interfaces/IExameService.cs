@@ -1,9 +1,7 @@
-﻿using NeurocorBackEnd.Service.ViewModels;
-using System;
+﻿using HMV.AgendamentoBackEnd.Service.ViewModels;
 using System.Collections.Generic;
-using System.Text;
 
-namespace NeurocorBackEnd.Service.Interfaces
+namespace HMV.AgendamentoBackEnd.Service.Interfaces
 {
     public interface IExameService
     {

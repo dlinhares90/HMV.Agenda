@@ -1,4 +1,4 @@
-﻿namespace NeurocorBackEnd.Service.ViewModels
+﻿namespace HMV.AgendamentoBackEnd.Service.ViewModels
 {
     public class UsuarioViewModel
     {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace NeurocorBackEnd.Infra.Data.Migrations
+namespace HMV.AgendamentoBackEnd.Infra.Data.Migrations
 {
     public partial class BaseInicial : Migration
     {

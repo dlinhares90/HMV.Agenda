@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NeurocorBackEnd.Domain\NeurocorBackEnd.Domain.csproj" />
+    <ProjectReference Include="..\HMV.AgendamentoBackEnd.Domain\HMV.AgendamentoBackEnd.Domain.csproj" />
   </ItemGroup>
 
 </Project>

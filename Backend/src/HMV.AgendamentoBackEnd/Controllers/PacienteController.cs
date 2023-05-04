@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using ClinosonBackEnd.Service.Interfaces;
-using ClinosonBackEnd.Service.ViewModels;
+﻿using HMV.AgendamentoBackEnd.Service.Interfaces;
+using HMV.AgendamentoBackEnd.Service.ViewModels;
+using Microsoft.AspNetCore.Mvc;
 
-namespace ClinosonBackEnd.Application.Controllers
+namespace HMV.AgendamentoBackEnd.Application.Controllers
 {
     /// <summary>
     /// Pacientes Controller

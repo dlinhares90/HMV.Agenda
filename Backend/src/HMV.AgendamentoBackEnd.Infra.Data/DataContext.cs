@@ -1,9 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using HMV.AgendamentoBackEnd.Domain.Entities;
+using HMV.AgendamentoBackEnd.Infra.Data.Mappings;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
-using ClinosonBackEnd.Domain.Entities;
-using ClinosonBackEnd.Infra.Data.Mappings;
 
-namespace ClinosonBackEnd.Infra.Data
+namespace HMV.AgendamentoBackEnd.Infra.Data
 {
     public class DataContext : DbContext
     {

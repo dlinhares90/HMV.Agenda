@@ -1,15 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using HMV.AgendamentoBackEnd.Service.Interfaces;
+using HMV.AgendamentoBackEnd.Service.ViewModels;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
-using NeurocorBackEnd.Service.Interfaces;
-using NeurocorBackEnd.Service.ViewModels;
 using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Net;
-using System.Net.Http;
-using System.Net.Http.Headers;
 
-namespace NeurocorBackEnd.Application.Controllers
+namespace HMV.AgendamentoBackEnd.Application.Controllers
 {
     /// <summary>
     /// Events Controller

@@ -1,4 +1,4 @@
-﻿namespace NeurocorBackEnd.Domain.Entities
+﻿namespace HMV.AgendamentoBackEnd.Domain.Entities
 {
     public class Usuario
     {

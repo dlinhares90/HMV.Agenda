@@ -1,8 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using HMV.AgendamentoBackEnd.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using NeurocorBackEnd.Domain.Entities;
 
-namespace NeurocorBackEnd.Infra.Data.Mappings
+namespace HMV.AgendamentoBackEnd.Infra.Data.Mappings
 {
     class UsuarioMapping : IEntityTypeConfiguration<Usuario>
     {

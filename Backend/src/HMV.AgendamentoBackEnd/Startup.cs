@@ -1,14 +1,14 @@
+using HMV.AgendamentoBackEnd.Infra.Data;
+using HMV.AgendamentoBackEnd.Infra.Ioc;
+using HMV.AgendamentoBackEnd.Ioc;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using ClinosonBackEnd.Infra.Data;
-using ClinosonBackEnd.Infra.Ioc;
-using ClinosonBackEnd.Ioc;
 
-namespace ClinosonBackEnd
+namespace HMV.AgendamentoBackEnd
 {
     /// <summary>
     /// Startup class
@@ -43,7 +43,6 @@ namespace ClinosonBackEnd
             services.AddHttpClient("HttpClient");
             services.AddAutoMapper();
             services.AddSwaggerServices();
-            services.RegisterDataBase(Configuration);
             services.RegisterServices();
         }
 

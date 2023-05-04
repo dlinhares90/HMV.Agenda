@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using NeurocorBackEnd.Domain.Entities;
-using NeurocorBackEnd.Service.ViewModels;
+using HMV.AgendamentoBackEnd.Domain.Entities;
+using HMV.AgendamentoBackEnd.Service.ViewModels;
 
-namespace NeurocorBackEnd.Service.AutoMapper
+namespace HMV.AgendamentoBackEnd.Service.AutoMapper
 {
     /// <summary>
     /// 

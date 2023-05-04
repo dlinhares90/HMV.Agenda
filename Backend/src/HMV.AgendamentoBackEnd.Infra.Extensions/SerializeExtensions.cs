@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.Json;
 
-namespace NeurocorBackEnd.Infra.Extensions
+namespace HMV.AgendamentoBackEnd.Infra.Extensions
 {
     public static class SerializeExtensions
     {

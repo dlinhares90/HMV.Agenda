@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace NeurocorBackEnd.Ioc
+namespace HMV.AgendamentoBackEnd.Ioc
 {
     public static class SwaggerConfiguration
     {

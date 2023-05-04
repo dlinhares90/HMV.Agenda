@@ -1,8 +1,8 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using NeurocorBackEnd.Service.AutoMapper;
+﻿using HMV.AgendamentoBackEnd.Service.AutoMapper;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace NeurocorBackEnd.Infra.Ioc
+namespace HMV.AgendamentoBackEnd.Infra.Ioc
 {
     /// <summary>
     /// DI do Automapper

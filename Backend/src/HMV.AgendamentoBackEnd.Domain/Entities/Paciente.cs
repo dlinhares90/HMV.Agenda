@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace NeurocorBackEnd.Domain.Entities
+namespace HMV.AgendamentoBackEnd.Domain.Entities
 {
     public partial class Paciente
     {

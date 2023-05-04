@@ -1,10 +1,10 @@
-﻿using iTextSharp.text;
+﻿using HMV.AgendamentoBackEnd.Infra.Data;
+using HMV.AgendamentoBackEnd.Service.Helpers;
+using HMV.AgendamentoBackEnd.Service.Interfaces;
+using HMV.AgendamentoBackEnd.Service.ViewModels;
+using iTextSharp.text;
 using iTextSharp.text.pdf;
 using Microsoft.EntityFrameworkCore;
-using ClinosonBackEnd.Infra.Data;
-using ClinosonBackEnd.Service.Helpers;
-using ClinosonBackEnd.Service.Interfaces;
-using ClinosonBackEnd.Service.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -13,7 +13,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace ClinosonBackEnd.Service.Services
+namespace HMV.AgendamentoBackEnd.Service.Services
 {
     public class ExameService : IExameService
     {
@@ -189,7 +189,7 @@ namespace ClinosonBackEnd.Service.Services
                 cb.AddTemplate(footerTemplate, doc.PageSize.GetLeft(10), doc.PageSize.GetBottom(10));
                 //END RODAPE
                 doc.Close();
-                
+
                 return output.ToArray();
 
             }

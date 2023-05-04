@@ -1,6 +1,6 @@
-﻿using NeurocorBackEnd.Service.ViewModels;
+﻿using HMV.AgendamentoBackEnd.Service.ViewModels;
 
-namespace NeurocorBackEnd.Service.Interfaces
+namespace HMV.AgendamentoBackEnd.Service.Interfaces
 {
     public interface IPacienteService
     {

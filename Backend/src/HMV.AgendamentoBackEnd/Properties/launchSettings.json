@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "NeurocorBackEnd": {
+    "HMV.AgendamentoBackEnd": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

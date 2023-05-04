@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-namespace NeurocorBackEnd.Service.Helpers
+namespace HMV.AgendamentoBackEnd.Service.Helpers
 {
     /// <summary>
     /// Rich Text Stripper
