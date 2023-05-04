@@ -1,6 +1,7 @@
 ﻿using HMV.AgendamentoBackEnd.Service.Interfaces;
 using HMV.AgendamentoBackEnd.Service.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using System;
 using System.Collections.Generic;
 
@@ -9,7 +10,7 @@ namespace HMV.AgendamentoBackEnd.Application.Controllers
     /// <summary>
     /// Lista de Valores Controller
     /// </summary>
-    [Route("api/lov")]
+    [Route("api/lovs")]
     [ApiController]
     public class LovController : Controller
     {
@@ -60,7 +61,7 @@ namespace HMV.AgendamentoBackEnd.Application.Controllers
         [Route("convenios")]
         [HttpGet]
         [ProducesDefaultResponseType(typeof(List<LovConvenioViewModel>))]
-        public IActionResult GetConvenios(int idItem)
+        public IActionResult GetConvenios([FromQuery, BindRequired] int idItem)
         {
             try
             {
@@ -87,7 +88,7 @@ namespace HMV.AgendamentoBackEnd.Application.Controllers
         [Route("prestadores")]
         [HttpGet]
         [ProducesDefaultResponseType(typeof(List<LovPrestadoreViewModel>))]
-        public IActionResult GetPrestadores(int idItem, int idConvenio)
+        public IActionResult GetPrestadores([FromQuery, BindRequired] int idItem, [FromQuery, BindRequired] int idConvenio)
         {
             try
             {

@@ -1,6 +1,4 @@
 ﻿using AutoMapper;
-using HMV.AgendamentoBackEnd.Domain.Entities;
-using HMV.AgendamentoBackEnd.Service.ViewModels;
 
 namespace HMV.AgendamentoBackEnd.Service.AutoMapper
 {
@@ -14,8 +12,6 @@ namespace HMV.AgendamentoBackEnd.Service.AutoMapper
         /// </summary>
         public ViewModelToDomainMappingProfile()
         {
-            CreateMap<PostUsuarioViewModel, Usuario>();
-            CreateMap<PutUsuarioViewModel, Usuario>();
         }
     }
 }

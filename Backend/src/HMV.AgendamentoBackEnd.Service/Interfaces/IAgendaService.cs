@@ -5,6 +5,6 @@ namespace HMV.AgendamentoBackEnd.Service.Interfaces
 {
     public interface IAgendaService
     {
-        List<AgendaViewModel> GetAgendas(int idItem, int idConvenio, int idprestador);
+        List<AgendaViewModel> GetAgendas(int idItem, int idConvenio, int idPrestador);
     }
 }

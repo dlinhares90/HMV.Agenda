@@ -4,24 +4,19 @@
         <name>HMV.AgendamentoBackEnd.Application</name>
     </assembly>
     <members>
-        <member name="T:HMV.AgendamentoBackEnd.Application.Controllers.ExameController">
+        <member name="T:HMV.AgendamentoBackEnd.Application.Controllers.AgendaController">
             <summary>
             Events Controller
             </summary>
         </member>
-        <member name="M:HMV.AgendamentoBackEnd.Application.Controllers.ExameController.#ctor(HMV.AgendamentoBackEnd.Service.Interfaces.IExameService)">
+        <member name="M:HMV.AgendamentoBackEnd.Application.Controllers.AgendaController.#ctor(HMV.AgendamentoBackEnd.Service.Interfaces.IAgendaService)">
             <summary>
             Construtor
             </summary>
         </member>
-        <member name="M:HMV.AgendamentoBackEnd.Application.Controllers.ExameController.Get(System.String)">
+        <member name="M:HMV.AgendamentoBackEnd.Application.Controllers.AgendaController.Get(System.Int32,System.Int32,System.Int32)">
             <summary>
-            Busca os exames do usuário
-            </summary>
-        </member>
-        <member name="M:HMV.AgendamentoBackEnd.Application.Controllers.ExameController.GetExame(System.Int32)">
-            <summary>
-            Faz o download do exame do usuário
+            Busca as agendas
             </summary>
         </member>
         <member name="T:HMV.AgendamentoBackEnd.Application.Controllers.LovController">
@@ -47,21 +42,6 @@
         <member name="M:HMV.AgendamentoBackEnd.Application.Controllers.LovController.GetPrestadores(System.Int32,System.Int32)">
             <summary>
             Busca a lista de prestadores
-            </summary>
-        </member>
-        <member name="T:HMV.AgendamentoBackEnd.Application.Controllers.PacienteController">
-            <summary>
-            Pacientes Controller
-            </summary>
-        </member>
-        <member name="M:HMV.AgendamentoBackEnd.Application.Controllers.PacienteController.#ctor(HMV.AgendamentoBackEnd.Service.Interfaces.IPacienteService)">
-            <summary>
-            Construtor
-            </summary>
-        </member>
-        <member name="M:HMV.AgendamentoBackEnd.Application.Controllers.PacienteController.Get(System.String)">
-            <summary>
-            Busca o paciente por cpf
             </summary>
         </member>
         <member name="T:HMV.AgendamentoBackEnd.Program">
