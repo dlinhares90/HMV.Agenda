@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NeurocorBackEnd.Application</name>
+    </assembly>
+    <members>
+        <member name="T:NeurocorBackEnd.Application.Controllers.AutenticacaoController">
+            <summary>
+            Autenticação Controller
+            </summary>
+        </member>
+        <member name="M:NeurocorBackEnd.Application.Controllers.AutenticacaoController.#ctor(NeurocorBackEnd.Service.Interfaces.IAutenticacaoService)">
+            <summary>
+            Construtor
+            </summary>
+        </member>
+        <member name="M:NeurocorBackEnd.Application.Controllers.AutenticacaoController.Post(NeurocorBackEnd.Service.ViewModels.PostAutenticacaoViewModel)">
+            <summary>
+            Autentica um usuário
+            </summary>
+        </member>
+        <member name="T:NeurocorBackEnd.Application.Controllers.ExameController">
+            <summary>
+            Events Controller
+            </summary>
+        </member>
+        <member name="M:NeurocorBackEnd.Application.Controllers.ExameController.#ctor(NeurocorBackEnd.Service.Interfaces.IExameService)">
+            <summary>
+            Construtor
+            </summary>
+        </member>
+        <member name="M:NeurocorBackEnd.Application.Controllers.ExameController.Get(System.String)">
+            <summary>
+            Busca os exames do usuário
+            </summary>
+        </member>
+        <member name="M:NeurocorBackEnd.Application.Controllers.ExameController.GetExame(System.Int32)">
+            <summary>
+            Faz o download do exame do usuário
+            </summary>
+        </member>
+        <member name="T:NeurocorBackEnd.Application.Controllers.PacienteController">
+            <summary>
+            Pacientes Controller
+            </summary>
+        </member>
+        <member name="M:NeurocorBackEnd.Application.Controllers.PacienteController.#ctor(NeurocorBackEnd.Service.Interfaces.IPacienteService)">
+            <summary>
+            Construtor
+            </summary>
+        </member>
+        <member name="M:NeurocorBackEnd.Application.Controllers.PacienteController.Get(System.String)">
+            <summary>
+            Busca o paciente por cpf
+            </summary>
+        </member>
+        <member name="T:NeurocorBackEnd.Application.Controllers.UsuarioController">
+            <summary>
+            Usuários Controller
+            </summary>
+        </member>
+        <member name="M:NeurocorBackEnd.Application.Controllers.UsuarioController.#ctor(NeurocorBackEnd.Service.Interfaces.IUsuarioService)">
+            <summary>
+            Construtor
+            </summary>
+        </member>
+        <member name="M:NeurocorBackEnd.Application.Controllers.UsuarioController.Get(System.String)">
+            <summary>
+            Busca o usuário
+            </summary>
+        </member>
+        <member name="M:NeurocorBackEnd.Application.Controllers.UsuarioController.PostUsuario(NeurocorBackEnd.Service.ViewModels.PostUsuarioViewModel)">
+            <summary>
+            Inclui o usuário
+            </summary>
+        </member>
+        <member name="M:NeurocorBackEnd.Application.Controllers.UsuarioController.PutUsuario(System.Int32,NeurocorBackEnd.Service.ViewModels.PutUsuarioViewModel)">
+            <summary>
+            Altera o usuário
+            </summary>
+        </member>
+        <member name="T:NeurocorBackEnd.Program">
+            <summary>
+            Program Class
+            </summary>
+        </member>
+        <member name="M:NeurocorBackEnd.Program.Main(System.String[])">
+            <summary>
+            Application Main()
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:NeurocorBackEnd.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            Application Host Creation
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:NeurocorBackEnd.Startup">
+            <summary>
+            Startup class
+            </summary>
+        </member>
+        <member name="P:NeurocorBackEnd.Startup.Configuration">
+            <summary>
+            The configuration used during startup
+            </summary>
+        </member>
+        <member name="M:NeurocorBackEnd.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Construtor
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:NeurocorBackEnd.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container. 
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:NeurocorBackEnd.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,NeurocorBackEnd.Infra.Data.DataContext)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+        </member>
+    </members>
+</doc>
