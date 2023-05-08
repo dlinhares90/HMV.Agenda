@@ -22,7 +22,12 @@ namespace HMV.AgendamentoBackEnd.Service.Services
         {
             List<AgendaViewModel> retorno = new List<AgendaViewModel>();
 
-            string sql = @"SELECT * FROM view_apphmv_agendas_scma WHERE cd_item_agendamento = :idItem AND cd_convenio = :idConvenio AND cd_prestador = :idPrestador";
+            string sql = @"SELECT * FROM view_apphmv_agendas_scma WHERE cd_item_agendamento = :idItem AND cd_convenio = :idConvenio ";
+
+            if (idPrestador > 0 )
+            {
+                sql += " AND cd_prestador = :idPrestador";
+            }
 
             DbConnection connection = _context.Database.GetDbConnection();
             if (connection.State == ConnectionState.Closed)
@@ -50,13 +55,16 @@ namespace HMV.AgendamentoBackEnd.Service.Services
 
             command.Parameters.Add(paramConvenio);
 
-            var paramPrestador = command.CreateParameter();
-            paramPrestador.ParameterName = "@idPrestador";
-            paramPrestador.Value = idPrestador;
-            paramPrestador.DbType = DbType.Int64;
-            paramPrestador.Direction = ParameterDirection.Input;
+            if (idPrestador > 0)
+            {
+                var paramPrestador = command.CreateParameter();
+                paramPrestador.ParameterName = "@idPrestador";
+                paramPrestador.Value = idPrestador;
+                paramPrestador.DbType = DbType.Int64;
+                paramPrestador.Direction = ParameterDirection.Input;
 
-            command.Parameters.Add(paramPrestador);
+                command.Parameters.Add(paramPrestador);
+            }
 
             DbDataReader reader = command.ExecuteReader();
             while (reader.Read())

@@ -34,7 +34,7 @@ namespace HMV.AgendamentoBackEnd.Application.Controllers
         [Route("")]
         [HttpGet]
         [ProducesDefaultResponseType(typeof(List<AgendaViewModel>))]
-        public IActionResult Get([FromQuery, BindRequired] int idItem, [FromQuery, BindRequired] int idConvenio, [FromQuery, BindRequired] int idPrestador)
+        public IActionResult Get([FromQuery, BindRequired] int idItem, [FromQuery, BindRequired] int idConvenio, int idPrestador)
         {
             try
             {
